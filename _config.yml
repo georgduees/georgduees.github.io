@@ -5,7 +5,7 @@ email: georg@duees.de
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
 baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+url: "https://www.duees.de"
 permalink: pretty
 #favicon: /path/to/favicon.png
 remote_theme: georgduees/bulma-clean-theme
@@ -50,7 +50,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "G. Duees"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
