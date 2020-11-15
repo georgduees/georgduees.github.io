@@ -1,68 +1,12 @@
 # Site Settings
 title: Georg Dües
-tagline: Bulma Clean Theme
+tagline: Blogfolio
 email: georg@duees.de
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
+  This page is a blog and portfolio, made with Jekyll and GitHub pages websites
+baseurl: "/"
 url: "https://www.duees.de"
 permalink: pretty
 #favicon: /path/to/favicon.png
 remote_theme: georgduees/bulma-clean-theme
 #hide_share_buttons: true
-
-paginate: 5
-paginate_path: "/blog/page:num"
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - kramdown-parser-gfm
-
-exclude: 
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-livereload: true
-
-sass:
-  style: compressed
-  source_dir: _sass
-
-#google_analytics: UA-code-here
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      show_sidebar: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      author: "G. Duees"
-      layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
-
-markdown: kramdown
-highlighter: rouge
-
-footer_menu: example_footer_menu
-
-collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
