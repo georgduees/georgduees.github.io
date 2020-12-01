@@ -8,5 +8,5 @@ baseurl: "/"
 url: "https://www.duees.de"
 permalink: pretty
 #favicon: /path/to/favicon.png
-remote_theme:  georgduees/blog-template
+remote_theme:   georgduees/startbootstrap-clean-blog-jekyll 
 #hide_share_buttons: true
