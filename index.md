@@ -1,3 +1,3 @@
 # Index example
 
-lorem
+lorem ipsum
