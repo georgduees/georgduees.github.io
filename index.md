@@ -1,3 +1,3 @@
-# Index example
+# Blogfolio
 
-lorem ipsum
+Partially a blog, partially a portfolio.
