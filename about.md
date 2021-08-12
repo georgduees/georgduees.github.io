@@ -1,3 +1,4 @@
-# Blogfolio
-
-Partially a blog, partially a portfolio.
+---
+layout: default
+title: About
+---<h1>About us</h1>
