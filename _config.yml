@@ -10,3 +10,4 @@ permalink: pretty
 #favicon: /path/to/favicon.png
 remote_theme:   georgduees/special-bacon
 #hide_share_buttons: true
+plugins: jekyll-remote-theme
