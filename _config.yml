@@ -8,6 +8,6 @@ baseurl: "/"
 url: "https://www.duees.de"
 permalink: pretty
 #favicon: /path/to/favicon.png
-remote_theme:   georgduees/special-bacon
+remote_theme:   pages-themes/hacker@v0.2.0
 #hide_share_buttons: true
 plugins: jekyll-remote-theme
