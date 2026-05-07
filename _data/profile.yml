@@ -1,9 +1,9 @@
-tagline: "IT Support | Linux | Training | Community | Schwimmen • Radfahren • Laufen"
-personal_note: "Hummus-begeisterter Tech-Nerd. Ich mag Arduino, Programmierung, Kochen und das Entdecken neuer Themen."
+tagline: "IT Support | Linux | Training | Community | Swimming • Biking • Running"
+personal_note: "Hummus-addicted tech nerd. Into Arduino, programming, cooking, and exploring new things."
 what_i_do:
-  - "Ich helfe Teams bei kniffligen technischen Problemen im Support-Alltag."
-  - "Ich teile Wissen ueber Trainings, Dokus und Community-Austausch."
-  - "Ich baue kleine Tools und Automationen, die den Alltag leichter machen."
+  - "I help teams solve tricky technical challenges in day-to-day support operations."
+  - "I share knowledge through training, documentation, and community exchange."
+  - "I build small tools and automations that make daily work easier."
 social_links:
   - label: "LinkedIn"
     icon: "🔗"

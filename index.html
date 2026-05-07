@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Start
+title: Home
 ---
 
 <main class="landing-page">
   {% include organisms/landing-profile.html %}
 
   <script>
-    // E-Mail wird clientseitig entschluesselt, um Scraping zu erschweren.
+    // Decode email on the client side to make scraping harder.
     function decodeEmail() {
       const email = atob('Z2VvcmdAZHVlZXMuZGU='.split('').reverse().join('').split('').reverse().join(''));
       const emailDisplay = document.getElementById('emailDisplay');
@@ -20,11 +20,11 @@ title: Start
 
       if (emailButton) {
         emailButton.href = 'mailto:' + email;
-        emailButton.setAttribute('aria-label', 'Email an ' + email);
+        emailButton.setAttribute('aria-label', 'Email ' + email);
       }
     }
     
-    // E-Mail beim Laden der Seite einblenden.
+    // Show email when the page loads.
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', decodeEmail);
     } else {

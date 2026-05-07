@@ -1,7 +1,7 @@
 #_data/navbar.yml
-- name: Start
+- name: Home
   link: /
-- name: Ueber mich
+- name: About
   link: /about
 - name: Blog
   link: /blog/

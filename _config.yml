@@ -1,10 +1,10 @@
 # Site Settings
 title: Georg Dües
-tagline: Blog und Portfolio
+tagline: Blog and Portfolio
 email: georg@duees.de
-lang: de-DE
+lang: en-US
 description: >
-  Persoenliche Website mit Blog und Portfolio zu IT Support, Linux, Training und Community.
+  Personal website with a blog and portfolio about IT support, Linux, training, and community.
 baseurl: "/"
 url: "https://www.duees.de"
 permalink: pretty
