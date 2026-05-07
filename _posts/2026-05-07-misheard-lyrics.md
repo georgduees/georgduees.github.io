@@ -3,7 +3,7 @@ layout: post
 title: "Misheard Lyrics"
 date: 2024-05-07 09:30:00 +0200
 description: "Lokale Identität und Falsche verstandende Sogtexte."
-image: /assets/img/posts/support-flow.svg
+image: https://i.ytimg.com/vi/2TEjkqMr_ik/maxresdefault.jpg
 categories: [blog]
 tags: [music, lyrics, ahaus]
 ---
