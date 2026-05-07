@@ -36,18 +36,12 @@
   font-weight: 600;
   text-decoration: none;
   background: #ffffff;
-  box-shadow: 0 2px 8px rgba(31, 41, 55, 0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
 }
 
 .link-button:hover {
-  transform: translateY(-1px);
+  background: #fbfcfd;
   border-color: #b8c1cf;
-  box-shadow: 0 5px 14px rgba(31, 41, 55, 0.08);
-}
-
-.link-button:active {
-  animation: button-tap 180ms ease-out;
 }
 
 .link-icon {
@@ -99,16 +93,9 @@
   padding: 0.62rem 0.9rem;
   font-weight: 700;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.15s ease;
 }
 
 .share-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(17, 24, 39, 0.2);
-}
-
-@keyframes button-tap {
-  0% { transform: scale(1); }
-  50% { transform: scale(0.97); }
-  100% { transform: scale(1); }
+  background: #21478f;
 }
