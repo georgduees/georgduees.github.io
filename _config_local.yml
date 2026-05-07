@@ -1,0 +1,5 @@
+# Lokaler Entwicklungs-Override: Theme aus lokalem Pfad (path-Gem) statt GitHub.
+# Verwendung: jekyll serve --config _config.yml,_config_local.yml
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag

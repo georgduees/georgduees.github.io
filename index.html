@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Index
+title: Start
 ---
 
 <main class="landing-page">
   {% include organisms/landing-profile.html %}
 
   <script>
-    // Email obfuscation to prevent scraping
+    // E-Mail wird clientseitig entschluesselt, um Scraping zu erschweren.
     function decodeEmail() {
       const email = atob('Z2VvcmdAZHVlZXMuZGU='.split('').reverse().join('').split('').reverse().join(''));
       const emailDisplay = document.getElementById('emailDisplay');
@@ -24,7 +24,7 @@ title: Index
       }
     }
     
-    // Decode email when page loads
+    // E-Mail beim Laden der Seite einblenden.
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', decodeEmail);
     } else {

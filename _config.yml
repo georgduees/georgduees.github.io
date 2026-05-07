@@ -1,17 +1,18 @@
 # Site Settings
 title: Georg Dües
-tagline: Blogfolio
+tagline: Blog und Portfolio
 email: georg@duees.de
 lang: de-DE
 description: >
-  This page is a blog and portfolio, made with Jekyll and GitHub pages websites
+  Persoenliche Website mit Blog und Portfolio zu IT Support, Linux, Training und Community.
 baseurl: "/"
 url: "https://www.duees.de"
 permalink: pretty
 #favicon: /path/to/favicon.png
-theme: jekyll-theme-minimal
+remote_theme: georgduees/jekyll_minimal
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
 defaults:
   -
     scope:
