@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Willkommen im Blog - Georg Dües</title>
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Willkommen im Blog | Georg Dües</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Willkommen im Blog" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Ein kurzer Einblick, welche Themen kuenftig auf dem Blog erscheinen." />
+<meta property="og:description" content="Ein kurzer Einblick, welche Themen kuenftig auf dem Blog erscheinen." />
+<link rel="canonical" href="http://0.0.0.0:4000/blog/2024/05/07/welcome-to-my-blog/" />
+<meta property="og:url" content="http://0.0.0.0:4000/blog/2024/05/07/welcome-to-my-blog/" />
+<meta property="og:site_name" content="Georg Dües" />
+<meta property="og:image" content="http://0.0.0.0:4000/assets/img/posts/support-flow.svg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-07T09:30:00+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://0.0.0.0:4000/assets/img/posts/support-flow.svg" />
+<meta property="twitter:title" content="Willkommen im Blog" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-07T09:30:00+02:00","datePublished":"2024-05-07T09:30:00+02:00","description":"Ein kurzer Einblick, welche Themen kuenftig auf dem Blog erscheinen.","headline":"Willkommen im Blog","image":"http://0.0.0.0:4000/assets/img/posts/support-flow.svg","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/blog/2024/05/07/welcome-to-my-blog/"},"url":"http://0.0.0.0:4000/blog/2024/05/07/welcome-to-my-blog/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body class="site-shell">
+    <header class="site-header">
+  <nav class="compact-nav" role="navigation" aria-label="main navigation">
+    <div class="menu-items">
+      
+  <a class="navbar-item" href="/">Home</a>
+
+
+  <a class="navbar-item" href="/about">About</a>
+
+
+  <a class="navbar-item" href="/blog/">Blog</a>
+
+
+
+    </div>
+  </nav>
+</header>
+
+    <main class="post-page">
+  <article class="post-container">
+    <header class="post-header">
+  <h1 class="post-heading">Willkommen im Blog</h1>
+  <p class="post-meta-line">
+    <time datetime="2024-05-07T09:30:00+02:00">07.05.2024</time>
+    
+  </p>
+  
+    <img class="post-hero" src="/assets/img/posts/support-flow.svg" alt="Willkommen im Blog">
+  
+</header>
+
+
+    <div class="post-content">
+      <p>Willkommen auf meinem Blog.</p>
+
+<p>Hier veroeffentliche ich in Zukunft kurze, praxisnahe Artikel zu Themen wie:</p>
+
+<ul>
+  <li>Linux und Troubleshooting im Support-Alltag</li>
+  <li>Wissenstransfer, Training und Community Work</li>
+  <li>Kleine Automationen, die Teams wirklich helfen</li>
+</ul>
+
+<p>Wenn du magst, schau regelmaessig vorbei. Es kommen laufend neue Beitraege dazu.</p>
+
+    </div>
+
+    <section class="post-share-box">
+  <button id="shareButton" class="share-button" type="button" data-url="http://0.0.0.0:4000/blog/2024/05/07/welcome-to-my-blog/" data-title="Willkommen im Blog">
+    Share Artikel
+  </button>
+  <p id="shareStatus" class="share-status" aria-live="polite"></p>
+</section>
+
+<script>
+  (function () {
+    const shareButton = document.getElementById('shareButton');
+    const shareStatus = document.getElementById('shareStatus');
+
+    if (!shareButton || !shareStatus) return;
+
+    const shareData = {
+      title: shareButton.dataset.title || document.title,
+      url: shareButton.dataset.url || window.location.href
+    };
+
+    shareButton.addEventListener('click', async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+          shareStatus.textContent = 'Artikel geteilt.';
+          return;
+        } catch (error) {
+          if (error && error.name === 'AbortError') {
+            shareStatus.textContent = 'Teilen abgebrochen.';
+            return;
+          }
+        }
+      }
+
+      try {
+        await navigator.clipboard.writeText(shareData.url);
+        shareStatus.textContent = 'Link in die Zwischenablage kopiert.';
+      } catch (error) {
+        shareStatus.textContent = 'Kopieren nicht moeglich. URL manuell kopieren.';
+      }
+    });
+  })();
+</script>
+
+  </article>
+</main>
+
+    <footer class="site-footer">
+      <p class="footer-motto">"Be excellent to each other"</p>
+      <p class="footer-credit">&copy; 2026 Georg Felix Dües | <a href="https://www.linkedin.com/in/georgduees/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </footer>
+  </body>
+</html>

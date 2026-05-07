@@ -3,4 +3,32 @@ layout: default
 title: Index
 ---
 
-<h1>Index Page test ja</h1>
+<main class="landing-page">
+  {% include organisms/landing-profile.html %}
+
+  <script>
+    // Email obfuscation to prevent scraping
+    function decodeEmail() {
+      const email = atob('Z2VvcmdAZHVlZXMuZGU='.split('').reverse().join('').split('').reverse().join(''));
+      const emailDisplay = document.getElementById('emailDisplay');
+      const emailButton = document.getElementById('emailButton');
+
+      if (emailDisplay) {
+        emailDisplay.textContent = email;
+        emailDisplay.style.userSelect = 'text';
+      }
+
+      if (emailButton) {
+        emailButton.href = 'mailto:' + email;
+        emailButton.setAttribute('aria-label', 'Email an ' + email);
+      }
+    }
+    
+    // Decode email when page loads
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', decodeEmail);
+    } else {
+      decodeEmail();
+    }
+  </script>
+</main>

@@ -2,12 +2,21 @@
 title: Georg Dües
 tagline: Blogfolio
 email: georg@duees.de
+lang: de-DE
 description: >
   This page is a blog and portfolio, made with Jekyll and GitHub pages websites
 baseurl: "/"
 url: "https://www.duees.de"
 permalink: pretty
 #favicon: /path/to/favicon.png
-remote_theme:   georgduees/jekyll_minimal
-#hide_share_buttons: true
-plugins: jekyll-remote-theme
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Georg Dües

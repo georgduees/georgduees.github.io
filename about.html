@@ -2,4 +2,10 @@
 layout: default
 title: About
 ---
-<h1>About us</h1>
+
+<main class="about-page">
+  <div class="about-container">
+    <h1>{{ site.data.about.title }}</h1>
+    {% include organisms/about-sections.html %}
+  </div>
+</main>
