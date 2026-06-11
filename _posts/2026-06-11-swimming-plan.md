@@ -17,8 +17,5 @@ Passend für die "Trinkflasche", kannst du so im A5-Format entspannt lesen, was 
 
 A6 und A7 Vorlagen in der Printer-Friendly Version oder 'normalen' farbkodierung:
 
-1. ![Download Plan_A6_Color](<https://www.duees.de/assets/img/posts/all-workouts-a6-clean.pdf>)
-2. ![Download Plan_A6_BlackWhite](<https://www.duees.de/assets/img/posts/all-workouts-a6-print.pdf>)
-3. ![Download Plan_A7_Color](<https://www.duees.de/assets/img/posts/all-workouts-a7-clean.pdf>)
-4. ![Download Plan_A7_BlackWhite](<https://www.duees.de/assets/img/posts/all-workouts-a7-print.pdf>)
+https://cloud.duees.de/s/XzMA8FZXC52Mffj
 
