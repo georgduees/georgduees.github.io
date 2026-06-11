@@ -15,7 +15,15 @@ Passend für die "Trinkflasche", kannst du so im A5-Format entspannt lesen, was 
 
 ![Beispiel-Swimplan.](<https://www.duees.de/assets/img/posts/swimplan.jpg>)
 
-A6 und A7 Vorlagen in der Printer-Friendly Version oder 'normalen' farbkodierung:
+A6 und A7 Vorlagen in der Printer-Friendly Version oder 'normalen Farbkodierung'.
 
-https://cloud.duees.de/s/XzMA8FZXC52Mffj
+<a href="https://www.duees.de/assets/img/posts/all-workouts-a6-clean.pdf" download>Pläne A6-Farbig Herunterladen </a> 
+
+<a href="https://www.duees.de/assets/img/posts/all-workouts-a6-print.pdf" download>Pläne A6-SW Herunterladen </a> 
+
+<a href="https://www.duees.de/assets/img/posts/all-workouts-a7-clean.pdf" download>Pläne A7-Farbig  Herunterladen </a> 
+
+<a href="https://www.duees.de/assets/img/posts/all-workouts-a7-print.pdf" download>Pläne A7-SW Herunterladen </a> 
+
+
 
