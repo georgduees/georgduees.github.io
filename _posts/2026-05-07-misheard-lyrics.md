@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Misheard Lyrics"
+title: "Schwimmbrillen und Abläufe"
 date: 2024-05-07 09:30:00 +0200
-description: "Lokale Identität und Falsche verstandende Sogtexte."
+description: "Die Herusaforderung schwimmt mit, vor allem nach der x-Ten Bahn im Schwimmflow auf der Garmin zu lesen, welche Trainings-Art oder Bahn denn nun echt ansteht. Hierfür gibt es Abhilfe, ."
 image: https://i.ytimg.com/vi/2TEjkqMr_ik/maxresdefault.jpg
 categories: [blog]
 tags: [music, lyrics, ahaus]
 ---
 
 Arte hat mal wieder eine wunderbare Doku über Songs.
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 10px; margin: 1rem 0;">
 	<iframe
 		src="https://www.youtube.com/embed/2TEjkqMr_ik"
