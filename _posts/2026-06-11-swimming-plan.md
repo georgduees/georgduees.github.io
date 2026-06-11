@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swimming Plans"
-date: 2024-06-11 10:30:00 +0200
+date: 2024-06-11 10:31:00 +0200
 description: "Was war nochmal Wann ? Don't make me Think!"
 image: https://www.duees.de/assets/img/posts/swimplan.jpg
 categories: [blog]
