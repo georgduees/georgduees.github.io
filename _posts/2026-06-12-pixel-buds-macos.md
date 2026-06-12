@@ -15,7 +15,7 @@ Check out the "PixelBudsMacOS"-Tool which gets you the same neat features, witho
 A native macOS menu-bar app for Google Pixel Buds Pro (Gen 1 & Gen 2). No Electron, no Chrome tab — talks to the buds directly over Bluetooth Classic RFCOMM using the reverse-engineered Maestro/Pigweed RPC protocol, plus Google Fast Pair (GFPS) for ring-my-buds.
 
 <p align="center">
-  <img src="https://github.com/georgduees/PixelBudsMacOS/blob/main/screenshots/popover-in-context.png" width="440" alt="PixelBudsBar in the macOS menu bar">
+  <img src="https://www.duees.de/assets/img/posts/popover-in-context.png" width="440" alt="PixelBudsBar in the macOS menu bar">
 </p>
 
 
